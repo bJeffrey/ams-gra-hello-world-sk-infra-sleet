@@ -420,6 +420,8 @@ fn load_server_with_env(
             value: namespace_uuid_str.clone(),
         })?;
 
+    // Preserve the historical UUIDv5 seeds for profiles without explicit IDs.
+    // These labels are identity compatibility, not a simulation dependency.
     let system_name = raw.system_name.unwrap_or_else(|| "supercell".to_owned());
     let subsystem_name = raw
         .subsystem_name

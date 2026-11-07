@@ -81,7 +81,6 @@ docs/html/
 /config/services.d/*.toml
 !/config/services.d/service.example.toml
 !/config/services.d/graupel.toml
-!/config/services.d/supercell.toml
 !/config/services.d/ir-search-and-track.toml
 !/config/services.d/rf-fm-demod.toml
 !/config/services.d/squall-ir-oms-adapter.toml
